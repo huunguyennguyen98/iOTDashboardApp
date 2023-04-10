@@ -1,5 +1,3 @@
-package fsbmse11hcm.iot.iotdashboard;
-
 import android.content.Context;
 import android.util.Log;
 
@@ -17,11 +15,11 @@ import org.eclipse.paho.client.mqttv3.MqttMessage;
 public class MQTTHelper {
     public MqttAndroidClient mqttAndroidClient;
 
-    public final String[] arrayTopics = {"huunguyenng/Feeds/cambien1", "huunguyenng/Feeds/cambien2", "huunguyenng/Feeds/cambien3", "huunguyenng/Feeds/nutnhan1", "huunguyenng/Feeds/nutnhan2", ""};
+    public final String[] arrayTopics = {"huunguyenng/Feeds/button1", "huunguyenng/Feeds/button2", "huunguyenng/Feeds/sensor1", "huunguyenng/Feeds/sensor2", "huunguyenng/Feeds/sensor3"};
 
     final String clientId = "12345678";
     final String username = "huunguyenng";
-    final String password = "aio_bGrZ27BxIBk8gZPeLj8r6TbwA6gp";
+    final String password = "aio_PrOj54c22kYcig8GT7BtNGjhF8gy";
 
     final String serverUri = "tcp://io.adafruit.com:1883";
 
